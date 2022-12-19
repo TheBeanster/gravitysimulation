@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Program">
+      <UniqueIdentifier>{389891b2-eb6d-4f82-9343-7ba6b566bf82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{c1236804-5df0-4017-b95d-f1d878ca9332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Simulator">
+      <UniqueIdentifier>{f4fdfe8e-927e-4a8a-85e8-5fc030586e61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Simulator\System">
+      <UniqueIdentifier>{5b2c6103-2134-46cd-8841-9e8e4f099b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Simulator\World">
+      <UniqueIdentifier>{d9fdd910-9a8e-4c19-a839-09e3f3ae6de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cJSON">
+      <UniqueIdentifier>{5e8e99fd-26e0-4de9-a93f-b384a66d123f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="program_init.c">
+      <Filter>Source Files\Program</Filter>
+    </ClCompile>
+    <ClCompile Include="program_loop.c">
+      <Filter>Source Files\Program</Filter>
+    </ClCompile>
+    <ClCompile Include="program_quit.c">
+      <Filter>Source Files\Program</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Source Files\Program</Filter>
+    </ClCompile>
+    <ClCompile Include="input.c">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="system.c">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="sim_util.c">
+      <Filter>Source Files\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="sim_buildelement.c">
+      <Filter>Source Files\Simulator\System</Filter>
+    </ClCompile>
+    <ClCompile Include="sim_system.c">
+      <Filter>Source Files\Simulator\System</Filter>
+    </ClCompile>
+    <ClCompile Include="sim_render.c">
+      <Filter>Source Files\Simulator\World</Filter>
+    </ClCompile>
+    <ClCompile Include="sim_physics.c">
+      <Filter>Source Files\Simulator\World</Filter>
+    </ClCompile>
+    <ClCompile Include="sim_object.c">
+      <Filter>Source Files\Simulator\World</Filter>
+    </ClCompile>
+    <ClCompile Include="sim_camera.c">
+      <Filter>Source Files\Simulator\World</Filter>
+    </ClCompile>
+    <ClCompile Include="sim_world.c">
+      <Filter>Source Files\Simulator\World</Filter>
+    </ClCompile>
+    <ClCompile Include="sim_particle.c">
+      <Filter>Source Files\Simulator\World</Filter>
+    </ClCompile>
+    <ClCompile Include="cJSON.c">
+      <Filter>Source Files\cJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="cJSON_Utils.c">
+      <Filter>Source Files\cJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="fileio.c">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="sim_elementtypes.c">
+      <Filter>Source Files\Simulator\System</Filter>
+    </ClCompile>
+    <ClCompile Include="sim_valueflags.c">
+      <Filter>Source Files\Simulator\System</Filter>
+    </ClCompile>
+    <ClCompile Include="sim_orbit.c">
+      <Filter>Source Files\Simulator\System</Filter>
+    </ClCompile>
+    <ClCompile Include="sim_chrono.c">
+      <Filter>Source Files\Simulator\World</Filter>
+    </ClCompile>
+    <ClCompile Include="sim_json.c">
+      <Filter>Source Files\Simulator\System</Filter>
+    </ClCompile>
+    <ClCompile Include="sim_color.c">
+      <Filter>Source Files\Simulator\System</Filter>
+    </ClCompile>
+    <ClCompile Include="sim_trajectory.c">
+      <Filter>Source Files\Simulator\System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="program_main.h">
+      <Filter>Source Files\Program</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Source Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="system.h">
+      <Filter>Source Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="sim_util.h">
+      <Filter>Source Files\Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="sim_system.h">
+      <Filter>Source Files\Simulator\System</Filter>
+    </ClInclude>
+    <ClInclude Include="sim_buildelement.h">
+      <Filter>Source Files\Simulator\System</Filter>
+    </ClInclude>
+    <ClInclude Include="sim_render.h">
+      <Filter>Source Files\Simulator\World</Filter>
+    </ClInclude>
+    <ClInclude Include="sim_physics.h">
+      <Filter>Source Files\Simulator\World</Filter>
+    </ClInclude>
+    <ClInclude Include="sim_object.h">
+      <Filter>Source Files\Simulator\World</Filter>
+    </ClInclude>
+    <ClInclude Include="sim_camera.h">
+      <Filter>Source Files\Simulator\World</Filter>
+    </ClInclude>
+    <ClInclude Include="sim_world.h">
+      <Filter>Source Files\Simulator\World</Filter>
+    </ClInclude>
+    <ClInclude Include="sim_particle.h">
+      <Filter>Source Files\Simulator\World</Filter>
+    </ClInclude>
+    <ClInclude Include="cJSON.h">
+      <Filter>Source Files\cJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="cJSON_Utils.h">
+      <Filter>Source Files\cJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="fileio.h">
+      <Filter>Source Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="sim_elementtypes.h">
+      <Filter>Source Files\Simulator\System</Filter>
+    </ClInclude>
+    <ClInclude Include="sim_valueflags.h">
+      <Filter>Source Files\Simulator\System</Filter>
+    </ClInclude>
+    <ClInclude Include="sim_orbit.h">
+      <Filter>Source Files\Simulator\System</Filter>
+    </ClInclude>
+    <ClInclude Include="sim_chrono.h">
+      <Filter>Source Files\Simulator\World</Filter>
+    </ClInclude>
+    <ClInclude Include="sim_json.h">
+      <Filter>Source Files\Simulator\System</Filter>
+    </ClInclude>
+    <ClInclude Include="sim_color.h">
+      <Filter>Source Files\Simulator\System</Filter>
+    </ClInclude>
+    <ClInclude Include="sim_trajectory.h">
+      <Filter>Source Files\Simulator\System</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="Systems\albumcover.json">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Systems\galaxycollision.json">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Systems\supernova.json">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="testsystem.json">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Systems\trojans.json">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>

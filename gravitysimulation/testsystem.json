@@ -1,0 +1,34 @@
+{
+  "friction": 0.995,
+  "escape_distance": 9999999999999,
+  "gravitational_constant": 0.1,
+  "camera_zoom": 0.9,
+  "camera_mode": 1,
+  "camera_flags": 0,
+  "camera_focus_id": 1,
+  "camera_rotation_focus_id": 0,
+
+  "globals": [
+    {
+      "type": "BETYPE_NULL",
+      "mass": 1000,
+
+      "children": [
+
+        {
+          "type": "BETYPE_GALAXY",
+          "rmin": 20,
+          "rmax": 2500,
+          "radius": 1,
+          "mass": 10,
+          "objectcount": 800,
+          "random": 0.5
+        }
+
+      ]
+    }
+
+
+
+  ]
+}

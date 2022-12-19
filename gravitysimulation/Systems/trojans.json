@@ -1,0 +1,43 @@
+{
+  "friction": 1.0,
+  "escape_distance": 450,
+  "camera_zoom": 0.9,
+  "camera_mode": 2,
+  "camera_flags": 2,
+  "camera_focus_id": 1,
+  "camera_rotation_focus_id": 0,
+
+  "globals": [
+    {
+      "type": "BETYPE_PLANET",
+      "mass": 1000,
+
+      "children": [
+
+        {
+          "type": "BETYPE_PLANET",
+          "mass": 5.5,
+          "radius": 1,
+          "orbit": {
+            "semimajoraxis": 150
+          }
+        },
+
+        {
+          "type": "BETYPE_RINGSYSTEM",
+          "rmin": 110,
+          "rmax": 180,
+          "particlecount": 20000,
+          "random": 0.15,
+          "flags": [
+            "BEFLAG_COLOR_HUE_ANGLE"
+          ]
+        }
+
+      ]
+    }
+
+
+
+  ]
+}

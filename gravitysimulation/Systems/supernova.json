@@ -1,0 +1,49 @@
+{
+  "particle_friction": 0.99997,
+  "escape_distance": 999999999,
+  "globals": [
+    {
+      "type": "BETYPE_PLANET",
+      "mass": 10000,
+      "radius": 10,
+
+      "children": [
+
+        {
+          "type": "BETYPE_NULL",
+          "mass": 100,
+          "radius": 5,
+          "orbit": {
+            "semimajoraxis": 200
+          },
+          "children": [
+            {
+              "type": "BETYPE_RINGSYSTEM",
+              "flags": [
+                "BEFLAG_COLOR_HUE_ANGLE",
+                "BEFLAG_COLOR_SATURATION_DISTANCE"
+              ],
+              "rmin": 30,
+              "rmax": 35,
+              "particlecount": 100000,
+              "random": 0.0
+            }
+          ]
+        },
+
+        {
+          "type": "BETYPE_RINGSYSTEM",
+          "rmin": 500,
+          "rmax": 500,
+          "objectcount": 1000,
+          "particlecount": 0,
+          "random": 0.05
+        }
+
+      ]
+    }
+
+
+
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "friction": 0.99997,
+  "escape_distance": 99999999999999,
+  "physics_iterations": 10,
+
+  "globals": [
+    {
+      "type": "BETYPE_NULL",
+      "mass": 300,
+
+      "children": [
+
+        {
+          "type": "BETYPE_NULL",
+          "mass": 500,
+          "radius": 5,
+          "orbit": {
+            "semimajoraxis": 400,
+            "oppositeside": false
+          },
+          "children": [
+            {
+              "type": "BETYPE_GALAXY",
+              "rmin": 2,
+              "rmax": 200,
+              "mass": 3,
+              "radius": 3,
+              "objectcount": 800,
+              "random": 0
+            }
+          ]
+        },
+
+        {
+          "type": "BETYPE_NULL",
+          "mass": 500,
+          "radius": 5,
+          "orbit": {
+            "semimajoraxis": 400,
+            "oppositeside": true
+          },
+          "children": [
+            {
+              "type": "BETYPE_GALAXY",
+              "rmin": 2,
+              "rmax": 200,
+              "mass": 3,
+              "radius": 3,
+              "objectcount": 800,
+              "random": 0
+            }
+          ]
+        }
+
+      ]
+    }
+
+
+
+  ]
+}
